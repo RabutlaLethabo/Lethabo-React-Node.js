@@ -5,6 +5,10 @@ import ManagersPage from "./Pages/ManagersPage";
 import AddPage from "./Pages/AddPage";
 import AddEmployee from "./Pages/AddEmployee";
 import AddManager from "./Pages/AddManager";
+import UpdateEmployeePage from "./Pages/UpdateEmployeePage";
+import DeleteEmployeePage from "./Pages/DeleteEmployeePage";
+import UpdateManagerPage from "./Pages/UpdateManagerPage";
+import DeleteManagerPage from "./Pages/DeleteManagerPage";
 import './index.css';
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
           <Route path="/add" element={<AddPage/>}/>
           <Route path="/add_employee" element={<AddEmployee/>}/>
           <Route path="/add_manager" element={<AddManager/>}/>
+          <Route path="/update_employee" element={<UpdateEmployeePage />} />
+          <Route path="/delete_employee" element={<DeleteEmployeePage />} />
+          <Route path="/update_manager" element={<UpdateManagerPage />} />
+          <Route path="/delete_manager" element={<DeleteManagerPage />} />
         </Routes>
     </Router>
   )

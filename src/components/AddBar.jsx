@@ -16,6 +16,32 @@ const AddBar = () => {
             >
                 Add Manager
             </NavLink>
+            <NavLink
+                to={'/update_employee'}
+                className="text-white bg-orange-500 font-semibold py-2 px-4 rounded transition duration-300"
+            >
+                Update Employee
+            </NavLink>
+
+            <NavLink
+                to={'/update_manager'}
+                className="text-white bg-orange-500 font-semibold py-2 px-4 rounded transition duration-300"
+            >
+                Update Manager
+            </NavLink>
+
+            <NavLink
+                to={'/delete_employee'}
+                className="text-white bg-red-500 font-semibold py-2 px-4 rounded transition duration-300"
+            >
+                Delete Employee
+            </NavLink>
+            <NavLink
+                to={'/delete_manager'}
+                className="text-white bg-red-500 font-semibold py-2 px-4 rounded transition duration-300"
+            >
+                Delete Manager
+            </NavLink>
         </div>
 
 
